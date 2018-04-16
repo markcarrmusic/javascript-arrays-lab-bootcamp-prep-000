@@ -26,3 +26,9 @@ function destructivelyRemoveFirstKitten(name) {
   var dRFK = kittens.shift(name);
   return dRFK;
 }
+
+// Append kitten in new Array
+function appendKitten(name) {
+  var aK = ['...kittens', name ];
+  return aK
+}
