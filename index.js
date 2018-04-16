@@ -30,7 +30,7 @@ function destructivelyRemoveFirstKitten(name) {
 // Append kitten in new array
 function appendKitten(name) {
   var aK = [...kittens, name];
-  return aK
+  return aK;
 }
 
 // Prepend kitten in new array
@@ -41,7 +41,12 @@ function prependKitten(name) {
 
 // Remove the last kitten and return a new array
 function removeLastKitten() {
-  var rLK = [...kittens -1]
-  return rLK
+  var rLK = [...kittens -1];
+  return rLK;
 }
+
+// Remove first kitten and return a new array
+function removeFirstKitten() {
+  var rFK = [-1 ...kittens];
+  return rFK;
 }
