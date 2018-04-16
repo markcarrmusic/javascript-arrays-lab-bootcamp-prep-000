@@ -47,6 +47,6 @@ function removeLastKitten() {
 
 // Remove first kitten and return a new array
 function removeFirstKitten() {
-  var rFK = [-1 ...kittens];
+  var rFK = cats.slice(1)
   return rFK;
 }
