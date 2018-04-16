@@ -27,8 +27,16 @@ function destructivelyRemoveFirstKitten(name) {
   return dRFK;
 }
 
-// Append kitten in new Array
+// Append kitten in new array
 function appendKitten(name) {
   var aK = [...kittens, name];
   return aK
+}
+
+// Prepend kitten in new array
+function prependKitten(name) {
+  var pK = [name,...kittens];
+  return pK;
+}
+
 }
