@@ -10,9 +10,13 @@ function destructivelyAppendKitten(name) {
 }
 
 // Destructively prepend a kittens
-function destructivelyPrependKitten (name) {
+function destructivelyPrependKitten(name) {
   var dPK = kittens.unshift(name);
   return dPK;
 }
 
-
+// Destructively Remove Last kitten
+function destructivelyRemoveLastKitten(name) {
+  var dRLK = kittens.pop(name);
+  return dRLK;
+}
