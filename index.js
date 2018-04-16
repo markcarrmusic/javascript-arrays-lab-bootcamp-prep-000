@@ -11,5 +11,8 @@ function destructivelyAppendKitten(name) {
 
 // Destructively prepend a kittens
 function destructivelyPrependKitten (name) {
-  var dPK = kitten.
+  var dPK = kitten.unshift(name);
+  return dPK;
 }
+
+
