@@ -20,3 +20,9 @@ function destructivelyRemoveLastKitten(name) {
   var dRLK = kittens.pop(name);
   return dRLK;
 }
+
+// Destructively Remove First kitten
+function destructivelyRemoveFirstKitten(name) {
+  var dRFK = kittens.shift(name);
+  return dRFK;
+}
