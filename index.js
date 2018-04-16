@@ -39,4 +39,9 @@ function prependKitten(name) {
   return pK;
 }
 
+// Remove the last kitten and return a new array
+function removeLastKitten() {
+  var rLK = [...kittens -1]
+  return rLK
+}
 }
